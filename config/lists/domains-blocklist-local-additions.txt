@@ -1,0 +1,33 @@
+# ===  Local set of patterns to block === #
+ad.*
+ads.*
+banner.*
+banners.*
+creatives.*
+oas.*
+oascentral.*
+tag.*
+telemetry.*
+tracker.*
+
+# === Macbook constantly sends a lot of useless queries to === #
+*.lan
+*.local
+*.localdomain
+*.workgroup
+
+# === Other === #
+# eth0.me is hardcoded in tools such as Archey, but is not available any
+# more, causing issues such as terminal sessions taking a long time to
+# start.
+eth0.me
+
+# ibpxl.com is a tracker that seems to frequently have issues, causing
+# page loads to stall.
+ibpxl.com
+
+# ditto for that one
+internetbrands.com
+
+# Ubuntu's motd script sends way too much information to Canonical
+motd.ubuntu.com
